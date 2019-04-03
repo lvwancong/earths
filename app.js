@@ -9,7 +9,7 @@ const logoRouter=require('./routes/logo.js');
 const textRouter=require('./routes/text.js');
 //创建web服务器
 var server=express();
-server.listen(3000,(err)=>{
+server.listen(5050,(err)=>{
 	if(err) throw err;
 	console.log('yes');
 });
